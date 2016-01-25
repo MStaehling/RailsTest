@@ -48,8 +48,8 @@ angular
       if(!vm.email || vm.email === '') {return sweetAlert('An e-mail address is required'); }
       sweetAlert('Thank You for signing up.', 'You will now receive future product updates.', 'success');
       contact.create({
-        lastName: vm.lastName,
-        firstName: vm.firstName,
+        last_name: vm.lastName,
+        first_name: vm.firstName,
         email: vm.email
       });
       vm.lastName = '';
