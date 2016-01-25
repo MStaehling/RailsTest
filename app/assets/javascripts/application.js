@@ -1,0 +1,12 @@
+//= require angular
+//= require angular-ui-router
+//= require angular-cookies
+//= require angular-route
+//= require angular-resource
+//= require angular-aria
+//= require angular-material
+//= require angular-animate
+//= require angular-sanitize
+//= require angular-mocks
+//= require sweetalert
+//= require_tree .
